@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# YouVideo 🎥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern YouTube clone application built with React 19, Material UI 7, and the RapidAPI YouTube V3 interface.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Video Search**: Search for any video content.
+- **Category Feeds**: Browse videos by categories (Coding, Music, Education, etc.).
+- **Video Playback**: Watch videos directly in the app using React Player.
+- **Channel Details**: View channel information and their video lists.
+- **Responsive Design**: Fully responsive UI for mobile, tablet, and desktop.
+- **Clean UI**: Built with the latest Material UI components and Emotion styling.
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: [React 19](https://react.dev/)
+- **UI Framework**: [Material UI 7](https://mui.com/)
+- **Icons**: [MUI Icons](https://mui.com/material-ui/material-icons/)
+- **Routing**: [React Router 6](https://reactrouter.com/)
+- **API Requests**: [Axios](https://axios-http.com/)
+- **Video Player**: [React Player](https://github.com/cookpete/react-player)
+- **Deployment**: [GitHub Pages](https://pages.github.com/) & [GitHub Actions](https://github.com/features/actions)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Installation
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/valerasg/youvideo.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+3. Create a `.env` file in the root directory and add your RapidAPI key:
+   ```env
+   REACT_APP_RAPID_API_KEY=your_api_key_here
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📜 Available Scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm start`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm test`: Launches the test runner.
+- `npm run test:ci`: Runs tests once (ideal for CI/CD).
+- `npm run deploy`: Builds and deploys the app to GitHub Pages.
 
-### `npm run eject`
+## 🧪 Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project includes a testing suite using React Testing Library and Jest.
+To run tests with coverage:
+```bash
+npm run test:coverage
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚢 Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is automatically deployed to GitHub Pages via GitHub Actions whenever changes are pushed to the `master` branch.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Live Demo: [https://valerasg.github.io/youvideo/](https://valerasg.github.io/youvideo/)
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/valerasg/youvideo/issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Built with ❤️ by [valerasg](https://github.com/valerasg)
