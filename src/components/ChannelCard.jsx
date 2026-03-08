@@ -16,6 +16,11 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
       height: '326px',
       margin: 'auto',
       marginTop,
+      transition: 'transform 0.2s',
+      '&:hover': {
+        transform: 'scale(1.02)',
+        zIndex: 10
+      }
     }}
   >
     <Link to={`/channel/${channelDetail?.id?.channelId}`}>
@@ -23,7 +28,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
         <CardMedia
           image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
           alt={channelDetail?.snippet?.title}
-          sx={{ borderRadius: '50%', height: '180px', width: '180px', mb: 2, border: '1px solid #e3e3e3' }}
+          sx={{ borderRadius: '50%', height: '180px', width: '180px', mb: 2, border: '1px solid #3d3d3d' }}
         />
         <Typography variant="h6">
           {channelDetail?.snippet?.title}{' '}

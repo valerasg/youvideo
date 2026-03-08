@@ -23,10 +23,13 @@ const SearchBar = () => {
       onSubmit={onhandleSubmit}
       sx={{
         borderRadius: 20,
-        border: '1px solid #e3e3e3',
+        border: '1px solid #3d3d3d',
         pl: 2,
         boxShadow: 'none',
         mr: { sm: 5 },
+        backgroundColor: '#202020',
+        display: 'flex',
+        alignItems: 'center',
       }}
     >
       <input
@@ -34,8 +37,9 @@ const SearchBar = () => {
         placeholder='Search...'
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
+        style={{ color: '#fff' }}
       />
-      <IconButton type='submit' sx={{ p: '10px', color: 'red' }} aria-label='search'>
+      <IconButton type='submit' sx={{ p: '10px', color: '#FC1503' }} aria-label='search'>
         <SearchIcon />
       </IconButton>
     </Paper>
