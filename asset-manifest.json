@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/youvideo/static/css/main.785542f5.css",
-    "main.js": "/youvideo/static/js/main.afd0b168.js",
+    "main.css": "/youvideo/static/css/main.acc0f237.css",
+    "main.js": "/youvideo/static/js/main.e5e4aea5.js",
     "reactPlayerHls.js": "/youvideo/static/js/reactPlayerHls.dba2b95d.chunk.js",
     "reactPlayerDash.js": "/youvideo/static/js/reactPlayerDash.fa037cbd.chunk.js",
     "reactPlayerMux.js": "/youvideo/static/js/reactPlayerMux.d1e34099.chunk.js",
@@ -16,8 +16,8 @@
     "static/js/365.cc49957f.chunk.js": "/youvideo/static/js/365.cc49957f.chunk.js",
     "static/js/788.0e2b9c7b.chunk.js": "/youvideo/static/js/788.0e2b9c7b.chunk.js",
     "index.html": "/youvideo/index.html",
-    "main.785542f5.css.map": "/youvideo/static/css/main.785542f5.css.map",
-    "main.afd0b168.js.map": "/youvideo/static/js/main.afd0b168.js.map",
+    "main.acc0f237.css.map": "/youvideo/static/css/main.acc0f237.css.map",
+    "main.e5e4aea5.js.map": "/youvideo/static/js/main.e5e4aea5.js.map",
     "reactPlayerHls.dba2b95d.chunk.js.map": "/youvideo/static/js/reactPlayerHls.dba2b95d.chunk.js.map",
     "reactPlayerDash.fa037cbd.chunk.js.map": "/youvideo/static/js/reactPlayerDash.fa037cbd.chunk.js.map",
     "reactPlayerMux.d1e34099.chunk.js.map": "/youvideo/static/js/reactPlayerMux.d1e34099.chunk.js.map",
@@ -33,7 +33,7 @@
     "788.0e2b9c7b.chunk.js.map": "/youvideo/static/js/788.0e2b9c7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.785542f5.css",
-    "static/js/main.afd0b168.js"
+    "static/css/main.acc0f237.css",
+    "static/js/main.e5e4aea5.js"
   ]
 }
